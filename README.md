@@ -18,6 +18,12 @@ Install Bundler:
 gem install bundler
 ```
 
+Install the Sinatra gem:
+
+```
+gem install sinatra
+```
+
 Install the gem dependencies for this:
 
 ```
@@ -45,4 +51,4 @@ http://localhost:4567/
 ## Nice to have :
 
 1. More tests.
-2. The ability to add quantities to a product and recalobrate the packs.
+2. The ability to add quantities to a product and recalibrate the packs.
