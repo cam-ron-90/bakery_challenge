@@ -1,0 +1,26 @@
+<h1>Welcome to our Bakery</h1>
+
+<h3>What would you like to order?</h3>
+
+<ul>
+  <% @products.each_with_index do |product, index| %>
+    <li><%= product.name %> - <%= product.code %> - packs of : <%= product.packs_amount.join(' | ') %></li>
+  <% end %>
+</ul>
+
+
+
+<form action="/orders" method="post">
+  <div>
+    <label for="product">Product Code</label>
+    <input type="text" name="code">
+
+    <label for="product">Quantity</label>
+    <input type="number" name="qty">
+
+    <!-- <label for="product">Croissant</label>
+    <input type="number" name="croissant"> -->
+  </div>
+  <input type="submit" value="Add to Cart">
+</form>
+

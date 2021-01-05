@@ -1,0 +1,18 @@
+<h1>CART</h1>
+
+
+<% @cart.items.each do |item| %>
+  <h5> <%= item[0].join(' ') %> </h5>
+  <ul>
+    <% item[1].each do |el| %>
+    <li><%= el %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<a href="/">Add more to your cart</a>
+<br>
+<button>
+  <a href="https://cam-ron-90.github.io/sponsor-me/">LEAVE BAKERY FOR FUN STUFF</a>
+</button>
+
