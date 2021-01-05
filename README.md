@@ -12,11 +12,6 @@ Change directory into `Bakery Challenge`
 cd bakery_challenge
 ```
 
-Check you have Ruby 2.7.1 installed.
-```
-ruby -v
-```
-
 Install Bundler:
 
 ```
